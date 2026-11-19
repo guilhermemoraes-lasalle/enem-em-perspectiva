@@ -64,6 +64,12 @@ O script processa o CSV em blocos e atualiza tanto `data/processed/` quanto `doc
 
 A unidade de análise é um registro de participante. Para cada prova objetiva, a taxa de presença é a proporção de registros com código de presença igual a 1 entre os que têm uma situação preenchida. As médias e os desvios-padrão usam notas válidas de participantes presentes; para redação, usam-se as notas válidas. Valores ausentes não são imputados. Registros sem dependência administrativa ou localização escolar válida ficam fora das comparações. Consulte `data/data_dictionary.md` para os detalhes.
 
+
+## Link
+
+https://guilhermemoraes-lasalle.github.io/enem-em-perspectiva/
+
+
 ## Licenças
 
 O código está sob licença MIT. O texto original está sob CC BY 4.0. Os microdados permanecem sujeitos aos termos da fonte oficial do Inep e não são redistribuídos neste repositório.
