@@ -7,6 +7,52 @@
 <style>
 :root{--ink:#172c31;--forest:#185d50;--leaf:#3c8b72;--lime:#d9e8a4;--coral:#d77b59;--paper:#f5f6f2;--surface:#fff;--muted:#637572;--line:#dce4de;--blue:#6688a0;--serif:Georgia,'Times New Roman',serif;--sans:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.65}a{color:var(--forest);text-decoration-thickness:1px;text-underline-offset:3px}.wrap{width:min(1160px,calc(100% - 44px));margin:auto}.hero{background:radial-gradient(ellipse at 84% 20%,rgba(217,232,164,.12),transparent 27%),linear-gradient(125deg,#14292e,#194f49 58%,#236955);color:white;padding-bottom:62px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-110px;bottom:-360px;width:560px;height:560px;border:1px solid rgba(255,255,255,.12);border-radius:50%;box-shadow:0 0 0 32px rgba(255,255,255,.025),0 0 0 68px rgba(255,255,255,.022);pointer-events:none}.masthead{height:68px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.17);position:relative;z-index:1}.wordmark{font-size:.82rem;font-weight:800;letter-spacing:.12em;color:#eff7f0}.wordmark b{color:var(--lime)}.masthead a{font-size:.85rem;color:#e2efe8}.hero-content{padding-top:58px;max-width:920px;position:relative;z-index:1}.eyebrow{text-transform:uppercase;letter-spacing:.17em;color:var(--lime);font-weight:800;font-size:.73rem}.hero h1{font:600 clamp(2.5rem,6vw,5.1rem)/1.03 var(--serif);letter-spacing:-.04em;margin:18px 0 20px;max-width:880px}.subtitle{font-size:1.13rem;color:#d6e6de;max-width:740px;margin:0}.byline{margin-top:28px;color:#f0f5f0;font-size:.94rem}.chips{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}.chip{font-size:.75rem;color:#f1f7f1;border:1px solid rgba(255,255,255,.26);border-radius:99px;padding:5px 11px}.hero-link{display:inline-flex;margin-top:24px;padding:9px 15px;border-radius:8px;background:var(--lime);color:#183533;text-decoration:none;font-weight:750;font-size:.86rem}.nav{background:#fff;border-bottom:1px solid var(--line)}.nav .wrap{display:flex;gap:23px;overflow:auto}.nav a{display:block;padding:14px 0;color:#526561;text-decoration:none;font-size:.82rem;white-space:nowrap}.nav a:hover{color:var(--forest)}main{padding:28px 0 72px}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:34px}.metric{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:18px 20px;box-shadow:0 3px 12px rgba(20,44,42,.035)}.metric strong{display:block;font:700 1.85rem/1.2 var(--serif);color:var(--forest);letter-spacing:-.02em}.metric span{display:block;color:var(--muted);font-size:.8rem;margin-top:6px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 238px;gap:48px}.article section{padding:34px 0;border-top:1px solid var(--line);scroll-margin-top:18px}.article section:first-child{border-top:0;padding-top:0}.article h2{font:600 2rem/1.16 var(--serif);letter-spacing:-.025em;margin:0 0 16px}.article h3{font-size:1.12rem;line-height:1.35;margin:25px 0 8px}.article p{margin:0 0 14px}.abstract{font:1.1rem/1.75 var(--serif);color:#304244}.keywords{font-size:.85rem;color:var(--muted)}.rq{margin:11px 0;padding:13px 16px;background:#e9efea;border-radius:0 10px 10px 0;border-left:3px solid var(--leaf)}.note{background:#fff9e8;border:1px solid #eee2bf;border-radius:10px;padding:14px 16px;margin:17px 0;color:#554f3b;font-size:.9rem}.code{background:#172f32;color:#e8f1e9;border-radius:10px;padding:15px 18px;overflow-x:auto;font:.82rem/1.7 ui-monospace,SFMono-Regular,Consolas,monospace}.figure{background:white;border:1px solid var(--line);border-radius:14px;padding:18px 18px 13px;margin:18px 0;box-shadow:0 4px 14px rgba(20,44,42,.025)}.figure-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.figure h3{margin:0;font-size:1rem}.figure select{border:1px solid var(--line);border-radius:7px;background:#fff;padding:7px 9px;color:var(--ink);font:inherit;font-size:.8rem}.chart-scroll{overflow:auto}.chart-scroll svg{display:block;width:100%;min-width:600px;height:auto}.caption{font-size:.79rem;color:var(--muted);margin:8px 0 0!important}.status{background:#fff4df;padding:11px 14px;border-radius:9px;color:#72512a;font-size:.85rem}.status.ok{background:#e8f2e9;color:#2b5d4e}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px;background:#fff}table{width:100%;border-collapse:collapse;font-size:.83rem}th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}th{background:#f0f4ef;color:var(--forest);font-size:.74rem;text-transform:uppercase;letter-spacing:.04em}tr:last-child td{border-bottom:0}.references{padding-left:20px}.references li{margin:9px 0;font-size:.88rem}.aside{padding-top:4px}.aside-card{position:sticky;top:18px;background:#e9eee8;border:1px solid var(--line);border-radius:14px;padding:18px}.aside-card h3{font-size:.85rem;margin:0 0 12px}.aside-card p{font-size:.8rem;line-height:1.5;color:#566762;margin:0 0 11px}.aside-card b{color:var(--ink)}.aside-card hr{border:0;border-top:1px solid #d3ddd5;margin:14px 0}.footer{background:#14292e;color:#d9e5df;padding:22px 0;font-size:.78rem}.footer .wrap{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}.small{font-size:.82rem;color:var(--muted)}@media(max-width:850px){.layout{grid-template-columns:1fr}.aside{order:-1}.aside-card{position:static;display:grid;grid-template-columns:repeat(2,1fr);gap:5px 16px}.aside-card h3,.aside-card hr{grid-column:1/-1}.aside-card p{margin:0 0 7px}}@media(max-width:580px){.wrap{width:calc(100% - 32px)}.hero{padding-bottom:42px}.masthead{height:58px}.hero-content{padding-top:40px}.hero h1{font-size:2.7rem}.subtitle{font-size:1rem}.metrics{grid-template-columns:1fr;gap:9px}.metric{padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px}.metric strong{font-size:1.55rem}.metric span{max-width:55%;text-align:right;margin:0}.nav .wrap{gap:18px}.article section{padding:27px 0}.article h2{font-size:1.8rem}.aside-card{grid-template-columns:1fr}.aside-card h3,.aside-card hr{grid-column:auto}.figure{padding:14px 12px 11px}.figure-head{align-items:flex-start;flex-direction:column}}
+
+/* Ajustes responsivos dos gráficos interativos */
+.figure { min-width: 0; }
+.figure-head { flex-wrap: wrap; }
+.figure-head label { display: inline-flex; align-items: center; gap: 8px; }
+.figure select { max-width: 100%; min-width: 0; }
+.chart-scroll {
+  width: 100%;
+  min-width: 0;
+  min-height: 340px;
+  overflow: hidden;
+  position: relative;
+}
+.chart-scroll .js-plotly-plot,
+.chart-scroll .plot-container,
+.chart-scroll .svg-container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.chart-scroll .modebar { right: 8px !important; }
+.table-wrap { max-width: 100%; -webkit-overflow-scrolling: touch; }
+.table-wrap table { min-width: 680px; }
+@media (max-width: 850px) {
+  .layout { gap: 24px; }
+  .article { min-width: 0; }
+  .chart-scroll { min-height: 320px; }
+}
+@media (max-width: 580px) {
+  .wrap { width: calc(100% - 28px); }
+  .hero h1 { font-size: clamp(2.15rem, 10vw, 2.8rem); }
+  .nav .wrap { padding-bottom: 2px; }
+  .figure { padding: 14px 10px 12px; margin-left: -2px; margin-right: -2px; }
+  .figure-head { gap: 10px; }
+  .figure-head h3 { font-size: .96rem; }
+  .figure-head label { width: 100%; justify-content: space-between; }
+  .figure select { flex: 1; max-width: 72%; font-size: .82rem; }
+  .chart-scroll { min-height: 300px; }
+  .chart-scroll .modebar { display: none !important; }
+  .article h2 { font-size: 1.65rem; }
+  .aside-card { padding: 15px; }
+}
+@media (max-width: 380px) {
+  .chart-scroll { min-height: 285px; }
+  .figure select { max-width: 68%; }
+}
+
 </style>
 </head>
 <body>
@@ -69,7 +115,7 @@
       <div class="note"><strong>Recorte analisado:</strong> 1.739.028 de 4.810.772 registros (36,2%) tinham dependência administrativa e localização válidas. Os demais não entram nas comparações por escola.</div>
     </section>
     <section id="resultados"><h2>3. Resultados e discussão</h2>
-      <p>Os gráficos abaixo são figuras vetoriais em SVG, geradas no navegador a partir das tabelas agregadas. Selecione uma prova para comparar presença ou uma área para explorar as notas por rede e localização.</p>
+      <p>Os gráficos interativos abaixo permitem comparar as redes e localizações. Use os seletores para trocar a prova ou a área; passe o cursor sobre as barras para consultar os valores e utilize os controles do gráfico para ampliar ou explorar os dados.</p>
       <div id="load-status" class="status">Carregando as tabelas agregadas…</div>
       <div class="figure"><div class="figure-head"><h3>RQ1 · Presença por rede e localização</h3><label class="small" for="presence-filter">Prova <select id="presence-filter"><option value="CN">Ciências da Natureza</option><option value="CH">Ciências Humanas</option><option value="LC">Linguagens</option><option value="MT">Matemática</option></select></label></div><div id="attendance-chart" class="chart-scroll"></div><p class="caption">Percentual de presença entre registros com situação preenchida. A comparação entre rede urbana e rural é feita dentro de cada dependência administrativa.</p></div>
       <div class="figure"><div class="figure-head"><h3>RQ2 e RQ3 · Nota média por rede e localização</h3><label class="small" for="area-filter">Área <select id="area-filter"><option value="CN">Ciências da Natureza</option><option value="CH">Ciências Humanas</option><option value="LC">Linguagens</option><option value="MT">Matemática</option><option value="Redação">Redação</option></select></label></div><div id="score-chart" class="chart-scroll"></div><p class="caption">Média ponderada pelo número de notas válidas. Para as provas objetivas, entram apenas participantes presentes.</p></div>
@@ -106,65 +152,198 @@ python src/etl.py --input "CAMINHO/RESULTADOS_2025.csv" \
 </main>
 <footer class="footer"><div class="wrap"><span>Enem em Perspectiva · Avaliação G2 · 2026</span><span>Centro Universitário LaSalle do Rio de Janeiro</span></div></footer>
 <script id="summary-data" type="application/json">[{"dependencia_administrativa":"Federal","localizacao":"Urbana","area":"CN","n_registros_com_escola_classificada":65107,"n_presenca_valida":65107.0,"n_presentes":59908.0,"taxa_presenca_pct":92.015,"n_notas_validas":59908,"media":537.844,"desvio_padrao":71.96},{"dependencia_administrativa":"Federal","localizacao":"Urbana","area":"CH","n_registros_com_escola_classificada":65107,"n_presenca_valida":65107.0,"n_presentes":61189.0,"taxa_presenca_pct":93.982,"n_notas_validas":61189,"media":550.568,"desvio_padrao":81.213},{"dependencia_administrativa":"Federal","localizacao":"Urbana","area":"LC","n_registros_com_escola_classificada":65107,"n_presenca_valida":65107.0,"n_presentes":61189.0,"taxa_presenca_pct":93.982,"n_notas_validas":61189,"media":566.531,"desvio_padrao":61.944},{"dependencia_administrativa":"Federal","localizacao":"Urbana","area":"MT","n_registros_com_escola_classificada":65107,"n_presenca_valida":65107.0,"n_presentes":59908.0,"taxa_presenca_pct":92.015,"n_notas_validas":59908,"media":592.106,"desvio_padrao":127.999},{"dependencia_administrativa":"Federal","localizacao":"Urbana","area":"Redação","n_registros_com_escola_classificada":65107,"n_presenca_valida":null,"n_presentes":null,"taxa_presenca_pct":null,"n_notas_validas":61189,"media":679.195,"desvio_padrao":178.66},{"dependencia_administrativa":"Federal","localizacao":"Rural","area":"CN","n_registros_com_escola_classificada":9542,"n_presenca_valida":9542.0,"n_presentes":8710.0,"taxa_presenca_pct":91.281,"n_notas_validas":8710,"media":520.974,"desvio_padrao":66.513},{"dependencia_administrativa":"Federal","localizacao":"Rural","area":"CH","n_registros_com_escola_classificada":9542,"n_presenca_valida":9542.0,"n_presentes":8908.0,"taxa_presenca_pct":93.356,"n_notas_validas":8908,"media":529.349,"desvio_padrao":79.558},{"dependencia_administrativa":"Federal","localizacao":"Rural","area":"LC","n_registros_com_escola_classificada":9542,"n_presenca_valida":9542.0,"n_presentes":8908.0,"taxa_presenca_pct":93.356,"n_notas_validas":8908,"media":546.468,"desvio_padrao":61.441},{"dependencia_administrativa":"Federal","localizacao":"Rural","area":"MT","n_registros_com_escola_classificada":9542,"n_presenca_valida":9542.0,"n_presentes":8710.0,"taxa_presenca_pct":91.281,"n_notas_validas":8710,"media":551.484,"desvio_padrao":119.205},{"dependencia_administrativa":"Federal","localizacao":"Rural","area":"Redação","n_registros_com_escola_classificada":9542,"n_presenca_valida":null,"n_presentes":null,"taxa_presenca_pct":null,"n_notas_validas":8908,"media":652.353,"desvio_padrao":181.723},{"dependencia_administrativa":"Estadual","localizacao":"Urbana","area":"CN","n_registros_com_escola_classificada":1302047,"n_presenca_valida":1302047.0,"n_presentes":913938.0,"taxa_presenca_pct":70.192,"n_notas_validas":913938,"media":473.543,"desvio_padrao":66.261},{"dependencia_administrativa":"Estadual","localizacao":"Urbana","area":"CH","n_registros_com_escola_classificada":1302047,"n_presenca_valida":1302047.0,"n_presentes":964757.0,"taxa_presenca_pct":74.095,"n_notas_validas":964757,"media":484.822,"desvio_padrao":76.634},{"dependencia_administrativa":"Estadual","localizacao":"Urbana","area":"LC","n_registros_com_escola_classificada":1302047,"n_presenca_valida":1302047.0,"n_presentes":964757.0,"taxa_presenca_pct":74.095,"n_notas_validas":964757,"media":509.785,"desvio_padrao":68.6},{"dependencia_administrativa":"Estadual","localizacao":"Urbana","area":"MT","n_registros_com_escola_classificada":1302047,"n_presenca_valida":1302047.0,"n_presentes":913938.0,"taxa_presenca_pct":70.192,"n_notas_validas":913938,"media":482.403,"desvio_padrao":104.927},{"dependencia_administrativa":"Estadual","localizacao":"Urbana","area":"Redação","n_registros_com_escola_classificada":1302047,"n_presenca_valida":null,"n_presentes":null,"taxa_presenca_pct":null,"n_notas_validas":964757,"media":529.299,"desvio_padrao":217.608},{"dependencia_administrativa":"Estadual","localizacao":"Rural","area":"CN","n_registros_com_escola_classificada":80518,"n_presenca_valida":80518.0,"n_presentes":50947.0,"taxa_presenca_pct":63.274,"n_notas_validas":50947,"media":455.909,"desvio_padrao":63.662},{"dependencia_administrativa":"Estadual","localizacao":"Rural","area":"CH","n_registros_com_escola_classificada":80518,"n_presenca_valida":80518.0,"n_presentes":53491.0,"taxa_presenca_pct":66.434,"n_notas_validas":53491,"media":462.791,"desvio_padrao":71.119},{"dependencia_administrativa":"Estadual","localizacao":"Rural","area":"LC","n_registros_com_escola_classificada":80518,"n_presenca_valida":80518.0,"n_presentes":53491.0,"taxa_presenca_pct":66.434,"n_notas_validas":53491,"media":479.522,"desvio_padrao":69.718},{"dependencia_administrativa":"Estadual","localizacao":"Rural","area":"MT","n_registros_com_escola_classificada":80518,"n_presenca_valida":80518.0,"n_presentes":50947.0,"taxa_presenca_pct":63.274,"n_notas_validas":50947,"media":448.757,"desvio_padrao":93.156},{"dependencia_administrativa":"Estadual","localizacao":"Rural","area":"Redação","n_registros_com_escola_classificada":80518,"n_presenca_valida":null,"n_presentes":null,"taxa_presenca_pct":null,"n_notas_validas":53491,"media":475.616,"desvio_padrao":231.167},{"dependencia_administrativa":"Municipal","localizacao":"Urbana","area":"CN","n_registros_com_escola_classificada":8701,"n_presenca_valida":8701.0,"n_presentes":6431.0,"taxa_presenca_pct":73.911,"n_notas_validas":6431,"media":501.046,"desvio_padrao":67.676},{"dependencia_administrativa":"Municipal","localizacao":"Urbana","area":"CH","n_registros_com_escola_classificada":8701,"n_presenca_valida":8701.0,"n_presentes":6747.0,"taxa_presenca_pct":77.543,"n_notas_validas":6747,"media":518.336,"desvio_padrao":79.305},{"dependencia_administrativa":"Municipal","localizacao":"Urbana","area":"LC","n_registros_com_escola_classificada":8701,"n_presenca_valida":8701.0,"n_presentes":6747.0,"taxa_presenca_pct":77.543,"n_notas_validas":6747,"media":543.053,"desvio_padrao":63.96},{"dependencia_administrativa":"Municipal","localizacao":"Urbana","area":"MT","n_registros_com_escola_classificada":8701,"n_presenca_valida":8701.0,"n_presentes":6431.0,"taxa_presenca_pct":73.911,"n_notas_validas":6431,"media":534.418,"desvio_padrao":110.931},{"dependencia_administrativa":"Municipal","localizacao":"Urbana","area":"Redação","n_registros_com_escola_classificada":8701,"n_presenca_valida":null,"n_presentes":null,"taxa_presenca_pct":null,"n_notas_validas":6747,"media":596.719,"desvio_padrao":178.34},{"dependencia_administrativa":"Municipal","localizacao":"Rural","area":"CN","n_registros_com_escola_classificada":314,"n_presenca_valida":314.0,"n_presentes":188.0,"taxa_presenca_pct":59.873,"n_notas_validas":188,"media":471.302,"desvio_padrao":61.41},{"dependencia_administrativa":"Municipal","localizacao":"Rural","area":"CH","n_registros_com_escola_classificada":314,"n_presenca_valida":314.0,"n_presentes":205.0,"taxa_presenca_pct":65.287,"n_notas_validas":205,"media":474.844,"desvio_padrao":66.121},{"dependencia_administrativa":"Municipal","localizacao":"Rural","area":"LC","n_registros_com_escola_classificada":314,"n_presenca_valida":314.0,"n_presentes":205.0,"taxa_presenca_pct":65.287,"n_notas_validas":205,"media":496.419,"desvio_padrao":61.659},{"dependencia_administrativa":"Municipal","localizacao":"Rural","area":"MT","n_registros_com_escola_classificada":314,"n_presenca_valida":314.0,"n_presentes":188.0,"taxa_presenca_pct":59.873,"n_notas_validas":188,"media":458.305,"desvio_padrao":89.147},{"dependencia_administrativa":"Municipal","localizacao":"Rural","area":"Redação","n_registros_com_escola_classificada":314,"n_presenca_valida":null,"n_presentes":null,"taxa_presenca_pct":null,"n_notas_validas":205,"media":524.098,"desvio_padrao":184.9},{"dependencia_administrativa":"Privada","localizacao":"Urbana","area":"CN","n_registros_com_escola_classificada":269000,"n_presenca_valida":269000.0,"n_presentes":249369.0,"taxa_presenca_pct":92.702,"n_notas_validas":249369,"media":552.568,"desvio_padrao":81.359},{"dependencia_administrativa":"Privada","localizacao":"Urbana","area":"CH","n_registros_com_escola_classificada":269000,"n_presenca_valida":269000.0,"n_presentes":254020.0,"taxa_presenca_pct":94.431,"n_notas_validas":254020,"media":566.957,"desvio_padrao":81.993},{"dependencia_administrativa":"Privada","localizacao":"Urbana","area":"LC","n_registros_com_escola_classificada":269000,"n_presenca_valida":269000.0,"n_presentes":254020.0,"taxa_presenca_pct":94.431,"n_notas_validas":254020,"media":578.277,"desvio_padrao":61.223},{"dependencia_administrativa":"Privada","localizacao":"Urbana","area":"MT","n_registros_com_escola_classificada":269000,"n_presenca_valida":269000.0,"n_presentes":249369.0,"taxa_presenca_pct":92.702,"n_notas_validas":249369,"media":621.713,"desvio_padrao":130.46},{"dependencia_administrativa":"Privada","localizacao":"Urbana","area":"Redação","n_registros_com_escola_classificada":269000,"n_presenca_valida":null,"n_presentes":null,"taxa_presenca_pct":null,"n_notas_validas":254020,"media":731.484,"desvio_padrao":159.367},{"dependencia_administrativa":"Privada","localizacao":"Rural","area":"CN","n_registros_com_escola_classificada":3799,"n_presenca_valida":3799.0,"n_presentes":3112.0,"taxa_presenca_pct":81.916,"n_notas_validas":3112,"media":500.475,"desvio_padrao":70.585},{"dependencia_administrativa":"Privada","localizacao":"Rural","area":"CH","n_registros_com_escola_classificada":3799,"n_presenca_valida":3799.0,"n_presentes":3245.0,"taxa_presenca_pct":85.417,"n_notas_validas":3245,"media":506.54,"desvio_padrao":80.928},{"dependencia_administrativa":"Privada","localizacao":"Rural","area":"LC","n_registros_com_escola_classificada":3799,"n_presenca_valida":3799.0,"n_presentes":3245.0,"taxa_presenca_pct":85.417,"n_notas_validas":3245,"media":523.399,"desvio_padrao":68.217},{"dependencia_administrativa":"Privada","localizacao":"Rural","area":"MT","n_registros_com_escola_classificada":3799,"n_presenca_valida":3799.0,"n_presentes":3112.0,"taxa_presenca_pct":81.916,"n_notas_validas":3112,"media":508.758,"desvio_padrao":120.168},{"dependencia_administrativa":"Privada","localizacao":"Rural","area":"Redação","n_registros_com_escola_classificada":3799,"n_presenca_valida":null,"n_presentes":null,"taxa_presenca_pct":null,"n_notas_validas":3245,"media":590.743,"desvio_padrao":188.035}]</script>
+
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <script>
-const networks=['Federal','Estadual','Municipal','Privada'];
-const areas=['CN','CH','LC','MT','Redação'];
-const names={CN:'Ciências da Natureza',CH:'Ciências Humanas',LC:'Linguagens',MT:'Matemática','Redação':'Redação'};
-const colors=['#185d50','#d77b59'];
-let rows=[];
-function parseCSV(s){const lines=s.replace(/^\uFEFF/,'').trim().split(/\r?\n/);const h=lines.shift().split(',');return lines.map(line=>{const a=line.split(',');return Object.fromEntries(h.map((x,i)=>[x,a[i]===''?null:a[i]]))})}
-function sum(list,key){return list.reduce((n,r)=>n+(Number(r[key])||0),0)}
-function metrics(net,area,loc){const g=rows.filter(r=>r.dependencia_administrativa===net&&r.area===area&&(!loc||r.localizacao===loc));const n=sum(g,'n_notas_validas'),valid=sum(g,'n_presenca_valida'),present=sum(g,'n_presentes');return{n,mean:n?g.reduce((v,r)=>v+(Number(r.media)||0)*(Number(r.n_notas_validas)||0),0)/n:null,valid,present,attendance:valid?100*present/valid:null}}
-function plot(elementId,area,kind){
-  const locs=['Urbana','Rural'];
-  const isPresence=kind==='presenca';
-  const traces=locs.map((loc,i)=>{
-    const values=networks.map(net=>{
-      const m=metrics(net,area,loc);
-      return isPresence?m.attendance:m.mean;
-    });
-    const counts=networks.map(net=>metrics(net,area,loc).n);
-    return {
-      type:'bar',
-      name:loc,
-      x:networks,
-      y:values,
-      marker:{color:colors[i]},
-      customdata:counts,
-      hovertemplate:'<b>%{x}</b><br>'+loc+'<br>'+
-        (isPresence?'Presença: %{y:.1f}%':'Média: %{y:.1f}')+
-        '<br>Notas válidas: %{customdata:,}<extra></extra>'
-    };
-  });
-  const layout={
-    autosize:true,
-    height:360,
-    margin:{l:58,r:24,t:24,b:58},
-    paper_bgcolor:'rgba(0,0,0,0)',
-    plot_bgcolor:'rgba(0,0,0,0)',
-    font:{family:'Inter, system-ui, sans-serif',color:'#253b39'},
-    barmode:'group',
-    bargap:0.24,
-    bargroupgap:0.08,
-    hoverlabel:{bgcolor:'#173f38',font:{color:'#fff'}},
-    legend:{orientation:'h',y:-0.22,x:0.5,xanchor:'center'},
-    xaxis:{title:'Dependência administrativa',fixedrange:true,gridcolor:'#edf1ed'},
-    yaxis:{
-      title:isPresence?'Taxa de presença (%)':'Nota média',
-      range:isPresence?[0,100]:[0,800],
-      gridcolor:'#e0e6e0',
-      zeroline:false
-    }
+(() => {
+  'use strict';
+  const networks = ['Federal', 'Estadual', 'Municipal', 'Privada'];
+  const areas = ['CN', 'CH', 'LC', 'MT', 'Redação'];
+  const names = {
+    CN: 'Ciências da Natureza',
+    CH: 'Ciências Humanas',
+    LC: 'Linguagens',
+    MT: 'Matemática',
+    'Redação': 'Redação'
   };
-  Plotly.react(elementId,traces,layout,{
-    responsive:true,
-    displaylogo:false,
-    modeBarButtonsToRemove:['lasso2d','select2d']
-  });
-}
-function table(){let body='';for(const net of networks)for(const loc of ['Urbana','Rural'])for(const area of areas){const m=metrics(net,area,loc);body+=`<tr><td>${net}</td><td>${loc}</td><td>${names[area]}</td><td>${m.n.toLocaleString('pt-BR')}</td><td>${m.mean==null?'—':m.mean.toFixed(1)}</td><td>${['CN','CH','LC','MT'].includes(area)&&m.attendance!=null?m.attendance.toFixed(1)+'%':'—'}</td></tr>`}document.getElementById('comparison-table').innerHTML=`<table><thead><tr><th>Rede</th><th>Localização</th><th>Área</th><th>N notas</th><th>Média</th><th>Presença</th></tr></thead><tbody>${body}</tbody></table>`}
-function render(){const p=document.getElementById('presence-filter').value,a=document.getElementById('area-filter').value;plot('attendance-chart',p,'presenca');plot('score-chart',a,'nota')}
-rows=JSON.parse(document.getElementById('summary-data').textContent);document.getElementById('presence-filter').addEventListener('change',render);document.getElementById('area-filter').addEventListener('change',render);render();table();const s=document.getElementById('load-status');s.className='status ok';s.textContent='Dados agregados carregados · 4.810.772 registros na base original · 1.739.028 no recorte escolar.';
+  const colors = ['#185d50', '#d77b59'];
+  const rows = JSON.parse(document.getElementById('summary-data').textContent);
+
+  function sum(list, key) {
+    return list.reduce((total, row) => total + (Number(row[key]) || 0), 0);
+  }
+  function metrics(network, area, location) {
+    const group = rows.filter(row =>
+      row.dependencia_administrativa === network &&
+      row.area === area &&
+      (!location || row.localizacao === location)
+    );
+    const n = sum(group, 'n_notas_validas');
+    const valid = sum(group, 'n_presenca_valida');
+    const present = sum(group, 'n_presentes');
+    const weighted = n
+      ? group.reduce((total, row) =>
+          total + (Number(row.media) || 0) * (Number(row.n_notas_validas) || 0), 0) / n
+      : null;
+    return {
+      n,
+      mean: weighted,
+      attendance: valid ? 100 * present / valid : null
+    };
+  }
+
+  function plot(elementId, area, kind) {
+    const isPresence = kind === 'presence';
+    const locations = ['Urbana', 'Rural'];
+    const traces = locations.map((location, index) => {
+      const values = networks.map(network => {
+        const item = metrics(network, area, location);
+        return isPresence ? item.attendance : item.mean;
+      });
+      const counts = networks.map(network => metrics(network, area, location).n);
+      return {
+        type: 'bar',
+        name: location,
+        x: networks,
+        y: values,
+        marker: { color: colors[index], cornerradius: 5 },
+        customdata: counts,
+        hovertemplate:
+          '<b>%{x}</b><br>' + location + '<br>' +
+          (isPresence ? 'Presença: %{y:.1f}%' : 'Nota média: %{y:.1f}') +
+          '<br>Notas válidas: %{customdata:,}<extra></extra>'
+      };
+    });
+
+    const mobile = window.matchMedia('(max-width: 580px)').matches;
+    const layout = {
+      autosize: true,
+      height: mobile ? 300 : 370,
+      margin: mobile
+        ? { l: 48, r: 12, t: 22, b: 72 }
+        : { l: 62, r: 24, t: 28, b: 72 },
+      paper_bgcolor: 'rgba(0,0,0,0)',
+      plot_bgcolor: 'rgba(0,0,0,0)',
+      font: {
+        family: "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        color: '#253b39',
+        size: mobile ? 10 : 12
+      },
+      barmode: 'group',
+      bargap: mobile ? 0.28 : 0.24,
+      bargroupgap: 0.08,
+      hovermode: 'closest',
+      hoverlabel: {
+        bgcolor: '#173f38',
+        bordercolor: '#173f38',
+        font: { color: '#fff', size: 12 }
+      },
+      legend: {
+        orientation: 'h',
+        x: 0.5,
+        xanchor: 'center',
+        y: -0.25,
+        yanchor: 'top',
+        font: { size: mobile ? 10 : 12 },
+        itemwidth: mobile ? 70 : 100
+      },
+      xaxis: {
+        title: { text: mobile ? '' : 'Dependência administrativa', standoff: 10 },
+        fixedrange: true,
+        tickfont: { size: mobile ? 9 : 11 },
+        automargin: true,
+        showgrid: false,
+        zeroline: false
+      },
+      yaxis: {
+        title: {
+          text: isPresence ? 'Presença (%)' : 'Nota média',
+          font: { size: mobile ? 10 : 12 }
+        },
+        range: isPresence ? [0, 100] : [0, 800],
+        gridcolor: '#e8eee8',
+        zeroline: false,
+        automargin: true,
+        tickfont: { size: mobile ? 9 : 11 }
+      }
+    };
+
+    Plotly.react(elementId, traces, layout, {
+      responsive: true,
+      displaylogo: false,
+      displayModeBar: 'hover',
+      modeBarButtonsToRemove: ['lasso2d', 'select2d', 'toImage']
+    });
+  }
+
+  function renderTable() {
+    let body = '';
+    for (const network of networks) {
+      for (const location of ['Urbana', 'Rural']) {
+        for (const area of areas) {
+          const item = metrics(network, area, location);
+          const attendance = ['CN', 'CH', 'LC', 'MT'].includes(area) && item.attendance !== null
+            ? item.attendance.toFixed(1) + '%'
+            : '—';
+          body += `<tr>
+            <td>${network}</td>
+            <td>${location}</td>
+            <td>${names[area]}</td>
+            <td>${item.n.toLocaleString('pt-BR')}</td>
+            <td>${item.mean === null ? '—' : item.mean.toFixed(1)}</td>
+            <td>${attendance}</td>
+          </tr>`;
+        }
+      }
+    }
+    document.getElementById('comparison-table').innerHTML = `
+      <table>
+        <thead><tr><th>Rede</th><th>Localização</th><th>Área</th><th>N notas</th><th>Média</th><th>Presença</th></tr></thead>
+        <tbody>${body}</tbody>
+      </table>`;
+  }
+
+  function renderCharts() {
+    const presenceArea = document.getElementById('presence-filter').value;
+    const scoreArea = document.getElementById('area-filter').value;
+    plot('attendance-chart', presenceArea, 'presence');
+    plot('score-chart', scoreArea, 'score');
+  }
+
+  function showLoadError() {
+    const status = document.getElementById('load-status');
+    status.className = 'status';
+    status.textContent = 'Não foi possível carregar a biblioteca dos gráficos. Verifique sua conexão com a internet e atualize a página.';
+  }
+
+  function init() {
+    const status = document.getElementById('load-status');
+    if (!window.Plotly) {
+      showLoadError();
+      return;
+    }
+    document.getElementById('presence-filter').addEventListener('change', renderCharts);
+    document.getElementById('area-filter').addEventListener('change', renderCharts);
+    renderCharts();
+    renderTable();
+    status.className = 'status ok';
+    status.textContent = 'Gráficos interativos carregados · 4.810.772 registros na base original · 1.739.028 no recorte escolar.';
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        document.querySelectorAll('.chart-scroll').forEach(chart => {
+          if (chart.data) Plotly.Plots.resize(chart);
+        });
+      }, 160);
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
 </script>
 </body></html>
