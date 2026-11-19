@@ -59,12 +59,6 @@ python src/etl.py --input "C:/caminho/RESULTADOS_2025.csv" --output-dir data/pro
 
 O script processa o CSV em blocos e atualiza tanto `data/processed/` quanto `docs/assets/`. A base bruta não deve ser enviada ao GitHub. O artigo e as tabelas agregadas já incluídos permitem conferir o estudo sem repetir essa etapa.
 
-## Publicar no GitHub Pages
-
-1. Crie um repositório público e envie os arquivos do projeto.
-2. Em `docs/index.html`, substitua `SEU-USUARIO` e `SEU-REPOSITORIO` pelo endereço do repositório.
-3. No GitHub, abra **Settings > Pages**. Em **Build and deployment**, escolha **Deploy from a branch**, selecione a branch `main` e a pasta `/docs`.
-4. Abra o endereço publicado e confira se o artigo e os gráficos carregam.
 
 ## Método em resumo
 
